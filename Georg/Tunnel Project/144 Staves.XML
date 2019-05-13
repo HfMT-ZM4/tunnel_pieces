@@ -1,0 +1,2490 @@
+<?xml version="1.0"?>
+<jmslscoredoc>
+<!-- Saved document from JMSL's programmable music notation editor. Java Music Specification Language by Nick Didkovsky & Phil Burk, available from: http://www.algomusic.com -->
+<score NAME="JMSLMaxScore-55" SUBTITLE="" COMPOSER="" COPYRIGHT="" WIDTH="800" HEIGHT="15000" STAFFS="144" NUMTRACKSPERSTAFF="4" InstrumentNamesVisible="false" TempoVisible="true" StaffNumbersVisible="true" MeasureNumbersVisible="true" SectionBracketsVisible="true" TimeSignaturesVisible="true" KeySignaturesVisible="true" ClefsVisible="true" ScoreTitleVisible="false" CourtesyClefsVisible="false" MeasureNumberOffset="1" LeftMargin="60.0" RightMargin="20.0" TopMargin="15.0" BottomMargin="15.0" TopMarginOfFirstPage="60.0" DrawAllMeasureNumbers="false" TextFontScaler="1.5" ScoreSubtitleFontScaler="2.0" ScoreTitleFontScaler="4.0" TimesigFontScaler="2.5" MeasureNumberFontScaler="1.5" TextFontName="SansSerif" ScoreSubtitleFontName="Serif" ScoreTitleFontName="Serif" TimesigFontName="Serif" MeasureNumberFontName="SansSerif" FirstSystemIndent="0.0" >
+<ScoreAnnotation CLASSNAME="com.softsynth.jmsl.score.ScoreAnnotation" Annotation="584.3oc0bujSCCCE.EkkhEyqje9uYGv.9IwFHk5fBJepRbFfPr2wscSvUcRSpj0aTOBZd2sZWe+As5A0OpwxoOKqiCyks10hZq98Xo8t6eauasVVUuuLWtWMM7w5xT241mL8zg418TeLV5aWdpz2sOVUcm9Zeq1tgtcFsy+y0k8yWuTq5Ndb8w4s55ycSWO71qgKWuOUlqWt4qKaC0gk4W562J2NkeucNGDHyoAxbZgLmNHyoGxbFfLmQHyYBxblo787X.IJhjPgjDJljPAkDJpjPgkDJtjPAlDJxjghLYv72JQQlLTjICEYxPQlLTjICEYxPQlLTjIKEYxRQlrX923QQlrTjIKEYxRQlrTjIKEYxRQlbTjIGEYxQQlbX9ElnHSNJxjihL4nHSNJxjihL4oHSdJxjmhL4oHSdLO7CTjIOEYxSQl7TjIOEYJPQlBTjo.EYJPQlBTjo.lmKOJxTfhLEnHSAJxTjhLEoHSQJxTjhLEoHSQJxTDyiLNEYJRQlhTjoDEYJQQlRTjoDEYJQQlRTjoDEYJgYalnHSIJxTlhLkoHSYJxTlhLkoHSYJxTlhLkoHSYLKZKmMsEyp1pwrqsZLKaqFy11pwrtsZL6aqFyB2pwrwsZLqbqFiQAJGDXLJNAgfSQH3jDBNMgfSTH3TEBNYg.SWHDLggPLbZVDFiBSaHDLwgPvTGBASdHDL8gPvDHBASgHDLIhPvzHBwxIrdXLJLYhPvzIBASnHDLkhPvjJBASqHDLwhPvTKBAStHj++8h3t+rq7lhA" >
+</ScoreAnnotation>
+<orchestra CLASSNAME="com.softsynth.jmsl.score.Orchestra" >
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="0" EditEnabled="true" Name="MaxScoreIns-0" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="1" EditEnabled="true" Name="MaxScoreIns-1" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="2" EditEnabled="true" Name="MaxScoreIns-2" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="3" EditEnabled="true" Name="MaxScoreIns-3" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="4" EditEnabled="true" Name="MaxScoreIns-4" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="5" EditEnabled="true" Name="MaxScoreIns-5" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="6" EditEnabled="true" Name="MaxScoreIns-6" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="7" EditEnabled="true" Name="MaxScoreIns-7" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="8" EditEnabled="true" Name="MaxScoreIns-8" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="9" EditEnabled="true" Name="MaxScoreIns-9" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="10" EditEnabled="true" Name="MaxScoreIns-10" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="11" EditEnabled="true" Name="MaxScoreIns-11" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="12" EditEnabled="true" Name="MaxScoreIns-12" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="13" EditEnabled="true" Name="MaxScoreIns-13" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="14" EditEnabled="true" Name="MaxScoreIns-14" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="15" EditEnabled="true" Name="MaxScoreIns-15" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="16" EditEnabled="true" Name="MaxScoreIns-16" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="17" EditEnabled="true" Name="MaxScoreIns-17" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="18" EditEnabled="true" Name="MaxScoreIns-18" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="19" EditEnabled="true" Name="MaxScoreIns-19" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="20" EditEnabled="true" Name="MaxScoreIns-20" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="21" EditEnabled="true" Name="MaxScoreIns-21" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="22" EditEnabled="true" Name="MaxScoreIns-22" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="23" EditEnabled="true" Name="MaxScoreIns-23" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="24" EditEnabled="true" Name="MaxScoreIns-24" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="25" EditEnabled="true" Name="MaxScoreIns-25" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="26" EditEnabled="true" Name="MaxScoreIns-26" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="27" EditEnabled="true" Name="MaxScoreIns-27" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="28" EditEnabled="true" Name="MaxScoreIns-28" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="29" EditEnabled="true" Name="MaxScoreIns-29" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="30" EditEnabled="true" Name="MaxScoreIns-30" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="31" EditEnabled="true" Name="MaxScoreIns-31" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="32" EditEnabled="true" Name="MaxScoreIns-32" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="33" EditEnabled="true" Name="MaxScoreIns-33" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="34" EditEnabled="true" Name="MaxScoreIns-34" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="35" EditEnabled="true" Name="MaxScoreIns-35" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="36" EditEnabled="true" Name="MaxScoreIns-36" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="37" EditEnabled="true" Name="MaxScoreIns-37" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="38" EditEnabled="true" Name="MaxScoreIns-38" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="39" EditEnabled="true" Name="MaxScoreIns-39" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="40" EditEnabled="true" Name="MaxScoreIns-40" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="41" EditEnabled="true" Name="MaxScoreIns-41" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="42" EditEnabled="true" Name="MaxScoreIns-42" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="43" EditEnabled="true" Name="MaxScoreIns-43" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="44" EditEnabled="true" Name="MaxScoreIns-44" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="45" EditEnabled="true" Name="MaxScoreIns-45" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="46" EditEnabled="true" Name="MaxScoreIns-46" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="47" EditEnabled="true" Name="MaxScoreIns-47" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="48" EditEnabled="true" Name="MaxScoreIns-48" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="49" EditEnabled="true" Name="MaxScoreIns-49" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="50" EditEnabled="true" Name="MaxScoreIns-50" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="51" EditEnabled="true" Name="MaxScoreIns-51" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="52" EditEnabled="true" Name="MaxScoreIns-52" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="53" EditEnabled="true" Name="MaxScoreIns-53" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="54" EditEnabled="true" Name="MaxScoreIns-54" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="55" EditEnabled="true" Name="MaxScoreIns-55" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="56" EditEnabled="true" Name="MaxScoreIns-56" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="57" EditEnabled="true" Name="MaxScoreIns-57" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="58" EditEnabled="true" Name="MaxScoreIns-58" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="59" EditEnabled="true" Name="MaxScoreIns-59" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="60" EditEnabled="true" Name="MaxScoreIns-60" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="61" EditEnabled="true" Name="MaxScoreIns-61" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="62" EditEnabled="true" Name="MaxScoreIns-62" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="63" EditEnabled="true" Name="MaxScoreIns-63" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="64" EditEnabled="true" Name="MaxScoreIns-64" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="65" EditEnabled="true" Name="MaxScoreIns-65" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="66" EditEnabled="true" Name="MaxScoreIns-66" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="67" EditEnabled="true" Name="MaxScoreIns-67" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="68" EditEnabled="true" Name="MaxScoreIns-68" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="69" EditEnabled="true" Name="MaxScoreIns-69" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="70" EditEnabled="true" Name="MaxScoreIns-70" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="71" EditEnabled="true" Name="MaxScoreIns-71" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="72" EditEnabled="true" Name="MaxScoreIns-72" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="73" EditEnabled="true" Name="MaxScoreIns-73" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="74" EditEnabled="true" Name="MaxScoreIns-74" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="75" EditEnabled="true" Name="MaxScoreIns-75" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="76" EditEnabled="true" Name="MaxScoreIns-76" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="77" EditEnabled="true" Name="MaxScoreIns-77" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="78" EditEnabled="true" Name="MaxScoreIns-78" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="79" EditEnabled="true" Name="MaxScoreIns-79" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="80" EditEnabled="true" Name="MaxScoreIns-80" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="81" EditEnabled="true" Name="MaxScoreIns-81" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="82" EditEnabled="true" Name="MaxScoreIns-82" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="83" EditEnabled="true" Name="MaxScoreIns-83" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="84" EditEnabled="true" Name="MaxScoreIns-84" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="85" EditEnabled="true" Name="MaxScoreIns-85" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="86" EditEnabled="true" Name="MaxScoreIns-86" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="87" EditEnabled="true" Name="MaxScoreIns-87" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="88" EditEnabled="true" Name="MaxScoreIns-88" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="89" EditEnabled="true" Name="MaxScoreIns-89" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="90" EditEnabled="true" Name="MaxScoreIns-90" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="91" EditEnabled="true" Name="MaxScoreIns-91" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="92" EditEnabled="true" Name="MaxScoreIns-92" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="93" EditEnabled="true" Name="MaxScoreIns-93" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="94" EditEnabled="true" Name="MaxScoreIns-94" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="95" EditEnabled="true" Name="MaxScoreIns-95" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="96" EditEnabled="true" Name="MaxScoreIns-96" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="97" EditEnabled="true" Name="MaxScoreIns-97" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="98" EditEnabled="true" Name="MaxScoreIns-98" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="99" EditEnabled="true" Name="MaxScoreIns-99" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="100" EditEnabled="true" Name="MaxScoreIns-100" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="101" EditEnabled="true" Name="MaxScoreIns-101" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="102" EditEnabled="true" Name="MaxScoreIns-102" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="103" EditEnabled="true" Name="MaxScoreIns-103" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="104" EditEnabled="true" Name="MaxScoreIns-104" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="105" EditEnabled="true" Name="MaxScoreIns-105" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="106" EditEnabled="true" Name="MaxScoreIns-106" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="107" EditEnabled="true" Name="MaxScoreIns-107" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="108" EditEnabled="true" Name="MaxScoreIns-108" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="109" EditEnabled="true" Name="MaxScoreIns-109" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="110" EditEnabled="true" Name="MaxScoreIns-110" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="111" EditEnabled="true" Name="MaxScoreIns-111" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="112" EditEnabled="true" Name="MaxScoreIns-112" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="113" EditEnabled="true" Name="MaxScoreIns-113" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="114" EditEnabled="true" Name="MaxScoreIns-114" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="115" EditEnabled="true" Name="MaxScoreIns-115" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="116" EditEnabled="true" Name="MaxScoreIns-116" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="117" EditEnabled="true" Name="MaxScoreIns-117" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="118" EditEnabled="true" Name="MaxScoreIns-118" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="119" EditEnabled="true" Name="MaxScoreIns-119" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="120" EditEnabled="true" Name="MaxScoreIns-120" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="121" EditEnabled="true" Name="MaxScoreIns-121" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="122" EditEnabled="true" Name="MaxScoreIns-122" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="123" EditEnabled="true" Name="MaxScoreIns-123" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="124" EditEnabled="true" Name="MaxScoreIns-124" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="125" EditEnabled="true" Name="MaxScoreIns-125" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="126" EditEnabled="true" Name="MaxScoreIns-126" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="127" EditEnabled="true" Name="MaxScoreIns-127" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="128" EditEnabled="true" Name="MaxScoreIns-128" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="129" EditEnabled="true" Name="MaxScoreIns-129" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="130" EditEnabled="true" Name="MaxScoreIns-130" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="131" EditEnabled="true" Name="MaxScoreIns-131" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="132" EditEnabled="true" Name="MaxScoreIns-132" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="133" EditEnabled="true" Name="MaxScoreIns-133" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="134" EditEnabled="true" Name="MaxScoreIns-134" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="135" EditEnabled="true" Name="MaxScoreIns-135" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="136" EditEnabled="true" Name="MaxScoreIns-136" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="137" EditEnabled="true" Name="MaxScoreIns-137" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="138" EditEnabled="true" Name="MaxScoreIns-138" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="139" EditEnabled="true" Name="MaxScoreIns-139" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="140" EditEnabled="true" Name="MaxScoreIns-140" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="141" EditEnabled="true" Name="MaxScoreIns-141" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="142" EditEnabled="true" Name="MaxScoreIns-142" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="143" EditEnabled="true" Name="MaxScoreIns-143" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
+<dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
+<dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
+</jmslscoreinstrument>
+</orchestra>
+<mixerpanelsettings >
+<panamppair FADERINDEX="0" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="1" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="2" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="3" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="4" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="5" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="6" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="7" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="8" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="9" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="10" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="11" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="12" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="13" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="14" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="15" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="16" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="17" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="18" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="19" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="20" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="21" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="22" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="23" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="24" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="25" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="26" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="27" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="28" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="29" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="30" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="31" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="32" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="33" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="34" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="35" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="36" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="37" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="38" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="39" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="40" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="41" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="42" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="43" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="44" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="45" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="46" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="47" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="48" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="49" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="50" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="51" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="52" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="53" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="54" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="55" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="56" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="57" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="58" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="59" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="60" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="61" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="62" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="63" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="64" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="65" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="66" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="67" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="68" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="69" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="70" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="71" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="72" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="73" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="74" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="75" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="76" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="77" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="78" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="79" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="80" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="81" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="82" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="83" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="84" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="85" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="86" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="87" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="88" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="89" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="90" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="91" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="92" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="93" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="94" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="95" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="96" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="97" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="98" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="99" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="100" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="101" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="102" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="103" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="104" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="105" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="106" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="107" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="108" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="109" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="110" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="111" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="112" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="113" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="114" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="115" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="116" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="117" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="118" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="119" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="120" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="121" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="122" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="123" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="124" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="125" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="126" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="127" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="128" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="129" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="130" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="131" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="132" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="133" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="134" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="135" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="136" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="137" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="138" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="139" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="140" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="141" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="142" PAN="0.5" AMP="0.5" />
+<panamppair FADERINDEX="143" PAN="0.5" AMP="0.5" />
+</mixerpanelsettings>
+<staffspacing INDEX="0" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="1" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="2" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="3" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="4" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="5" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="6" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="7" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="8" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="9" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="10" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="11" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="12" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="13" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="14" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="15" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="16" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="17" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="18" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="19" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="20" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="21" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="22" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="23" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="24" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="25" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="26" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="27" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="28" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="29" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="30" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="31" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="32" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="33" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="34" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="35" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="36" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="37" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="38" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="39" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="40" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="41" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="42" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="43" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="44" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="45" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="46" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="47" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="48" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="49" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="50" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="51" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="52" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="53" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="54" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="55" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="56" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="57" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="58" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="59" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="60" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="61" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="62" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="63" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="64" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="65" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="66" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="67" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="68" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="69" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="70" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="71" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="72" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="73" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="74" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="75" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="76" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="77" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="78" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="79" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="80" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="81" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="82" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="83" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="84" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="85" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="86" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="87" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="88" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="89" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="90" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="91" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="92" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="93" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="94" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="95" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="96" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="97" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="98" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="99" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="100" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="101" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="102" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="103" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="104" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="105" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="106" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="107" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="108" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="109" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="110" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="111" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="112" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="113" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="114" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="115" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="116" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="117" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="118" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="119" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="120" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="121" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="122" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="123" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="124" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="125" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="126" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="127" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="128" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="129" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="130" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="131" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="132" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="133" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="134" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="135" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="136" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="137" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="138" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="139" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="140" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="141" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="142" ABOVE="78.0" BELOW="78.0" />
+<staffspacing INDEX="143" ABOVE="78.0" BELOW="78.0" />
+<scoresection NAME="A" START="0" END="0" />
+<scoresection NAME="B" START="0" END="0" />
+<scoresection NAME="C" START="0" END="0" />
+<scoresection NAME="D" START="0" END="0" />
+<scoresection NAME="E" START="0" END="0" />
+<scoresection NAME="F" START="0" END="0" />
+<scoresection NAME="G" START="0" END="0" />
+<scoresection NAME="H" START="0" END="0" />
+<scoresection NAME="I" START="0" END="0" />
+<scoresection NAME="J" START="0" END="0" />
+<scoresection NAME="K" START="0" END="0" />
+<scoresection NAME="L" START="0" END="0" />
+<scoresection NAME="M" START="0" END="0" />
+<scoresection NAME="N" START="0" END="0" />
+<scoresection NAME="O" START="0" END="0" />
+<scoresection NAME="P" START="0" END="0" />
+<scoresection NAME="Q" START="0" END="0" />
+<scoresection NAME="R" START="0" END="0" />
+<scoresection NAME="S" START="0" END="0" />
+<scoresection NAME="T" START="0" END="0" />
+<scoresection NAME="U" START="0" END="0" />
+<scoresection NAME="V" START="0" END="0" />
+<scoresection NAME="W" START="0" END="0" />
+<scoresection NAME="X" START="0" END="0" />
+<scoresection NAME="Y" START="0" END="0" />
+<scoresection NAME="Z" START="0" END="0" />
+<measure WIDTH="1443" WIDTHSETBYHAND="false" TIMESIG="4 4" TIMESIGSETBYHAND="false" TEMPO="60.0" TEMPOSETBYHAND="false" REPEATSTART="false" REPEATEND="false" NUMREPEATS="1" BARLINE="SINGLE" MEASURETEXT="" MEASURETEXTX="48" MEASURETEXTY="48" >
+<staff INDEX="0" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="0" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="1" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="1" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="2" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="2" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="3" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="3" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="4" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="4" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="5" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="5" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="6" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="6" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="7" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="7" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="8" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="8" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="9" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="9" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="10" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="10" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="11" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="11" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="12" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="12" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="13" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="13" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="14" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="14" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="15" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="15" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="16" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="16" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="17" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="17" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="18" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="18" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="19" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="19" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="20" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="20" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="21" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="21" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="22" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="22" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="23" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="23" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="24" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="24" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="25" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="25" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="26" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="26" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="27" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="27" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="28" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="28" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="29" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="29" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="30" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="30" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="31" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="31" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="32" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="32" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="33" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="33" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="34" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="34" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="35" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="35" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="36" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="36" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="37" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="37" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="38" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="38" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="39" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="39" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="40" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="40" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="41" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="41" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="42" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="42" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="43" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="43" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="44" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="44" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="45" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="45" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="46" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="46" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="47" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="47" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="48" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="48" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="49" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="49" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="50" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="50" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="51" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="51" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="52" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="52" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="53" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="53" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="54" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="54" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="55" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="55" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="56" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="56" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="57" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="57" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="58" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="58" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="59" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="59" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="60" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="60" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="61" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="61" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="62" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="62" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="63" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="63" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="64" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="64" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="65" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="65" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="66" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="66" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="67" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="67" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="68" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="68" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="69" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="69" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="70" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="70" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="71" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="71" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="72" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="72" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="73" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="73" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="74" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="74" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="75" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="75" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="76" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="76" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="77" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="77" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="78" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="78" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="79" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="79" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="80" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="80" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="81" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="81" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="82" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="82" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="83" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="83" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="84" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="84" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="85" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="85" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="86" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="86" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="87" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="87" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="88" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="88" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="89" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="89" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="90" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="90" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="91" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="91" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="92" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="92" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="93" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="93" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="94" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="94" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="95" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="95" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="96" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="96" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="97" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="97" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="98" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="98" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="99" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="99" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="100" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="100" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="101" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="101" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="102" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="102" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="103" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="103" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="104" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="104" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="105" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="105" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="106" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="106" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="107" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="107" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="108" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="108" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="109" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="109" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="110" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="110" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="111" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="111" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="112" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="112" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="113" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="113" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="114" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="114" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="115" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="115" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="116" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="116" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="117" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="117" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="118" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="118" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="119" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="119" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="120" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="120" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="121" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="121" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="122" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="122" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="123" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="123" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="124" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="124" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="125" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="125" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="126" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="126" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="127" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="127" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="128" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="128" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="129" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="129" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="130" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="130" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="131" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="131" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="132" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="132" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="133" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="133" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="134" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="134" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="135" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="135" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="136" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="136" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="137" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="137" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="138" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="138" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="139" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="139" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="140" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="140" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="141" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="141" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="142" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="142" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+<staff INDEX="143" CLEF="0" CLEFSETBYHAND="false" INSTRUMENTINDEX="143" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
+<track INDEX="0" >
+</track>
+<track INDEX="1" >
+</track>
+<track INDEX="2" >
+</track>
+<track INDEX="3" >
+</track>
+</staff>
+</measure>
+<scoreUserBean CLASSNAME="com.algomusic.max.MaxScoreRenderedMessageListener" >
+</scoreUserBean>
+</score>
+</jmslscoredoc>
