@@ -1,31 +1,31 @@
 <?xml version="1.0"?>
 <jmslscoredoc>
 <!-- Saved document from JMSL's programmable music notation editor. Java Music Specification Language by Nick Didkovsky & Phil Burk, available from: http://www.algomusic.com -->
-<score NAME="JMSLMaxScore-6" SUBTITLE="" COMPOSER="" COPYRIGHT="" WIDTH="1050" HEIGHT="800" STAFFS="5" NUMTRACKSPERSTAFF="4" InstrumentNamesVisible="false" TempoVisible="true" StaffNumbersVisible="false" MeasureNumbersVisible="true" SectionBracketsVisible="false" TimeSignaturesVisible="false" KeySignaturesVisible="true" ClefsVisible="true" ScoreTitleVisible="false" CourtesyClefsVisible="false" MeasureNumberOffset="0" LeftMargin="10.0" RightMargin="20.0" TopMargin="40.0" BottomMargin="15.0" TopMarginOfFirstPage="60.0" DrawAllMeasureNumbers="false" TextFontScaler="1.5" ScoreSubtitleFontScaler="2.0" ScoreTitleFontScaler="4.0" TimesigFontScaler="2.5" MeasureNumberFontScaler="1.5" TextFontName="SansSerif" ScoreSubtitleFontName="Serif" ScoreTitleFontName="Serif" TimesigFontName="Serif" MeasureNumberFontName="SansSerif" FirstSystemIndent="0.0" >
+<score NAME="JMSLMaxScore-6" SUBTITLE="" COMPOSER="" COPYRIGHT="" WIDTH="700" HEIGHT="450" STAFFS="5" NUMTRACKSPERSTAFF="4" InstrumentNamesVisible="false" TempoVisible="true" StaffNumbersVisible="false" MeasureNumbersVisible="true" SectionBracketsVisible="false" TimeSignaturesVisible="false" KeySignaturesVisible="true" ClefsVisible="true" ScoreTitleVisible="false" CourtesyClefsVisible="false" MeasureNumberOffset="0" LeftMargin="10.0" RightMargin="20.0" TopMargin="40.0" BottomMargin="15.0" TopMarginOfFirstPage="60.0" DrawAllMeasureNumbers="false" TextFontScaler="1.5" ScoreSubtitleFontScaler="2.0" ScoreTitleFontScaler="4.0" TimesigFontScaler="2.5" MeasureNumberFontScaler="1.5" TextFontName="SansSerif" ScoreSubtitleFontName="Serif" ScoreTitleFontName="Serif" TimesigFontName="Serif" MeasureNumberFontName="SansSerif" FirstSystemIndent="0.0" >
 <ScoreAnnotation CLASSNAME="com.softsynth.jmsl.score.ScoreAnnotation" Annotation="233.3oc2P1qaCCBEFcFdJPLGWYm1lg9Fjg9mT2p5.I9RDo.WqKPjprx6dMfZsTTWaF7HmuKW9NLxYxS.ELnWJdPH6toUtZhMP3.RwIrxlCZyvPTo0Ms4yrQNiIsP+AfrFODxvtUYXH9kEJK60jhh.IdC8frj4L6IzoFJwtGa7+ln5OlBwedJlbuEzko5AsJYi0oH0TkZrH9YZXd1RuNPXk89DUzJ9nt1c6ns9PjdR4pkRT2jICSNvGyIufASV1m05.TaAmclOK85+Eo+aIu7q3Jn2sKa8taYq28k6JmAatDzsD+.3m4eCT40L8." >
 </ScoreAnnotation>
 <orchestra CLASSNAME="com.softsynth.jmsl.score.Orchestra" >
-<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="0" EditEnabled="true" Name="MaxScoreIns-0" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" EditEnabled="true" InsIndex="0" Name="MaxScoreIns-0" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
 <dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
 <dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
 <dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
 </jmslscoreinstrument>
-<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="1" EditEnabled="true" Name="MaxScoreIns-0" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" EditEnabled="true" InsIndex="1" Name="MaxScoreIns-0" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
 <dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
 <dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
 <dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
 </jmslscoreinstrument>
-<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="2" EditEnabled="true" Name="MaxScoreIns-0" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" EditEnabled="true" InsIndex="2" Name="MaxScoreIns-0" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
 <dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
 <dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
 <dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
 </jmslscoreinstrument>
-<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="3" EditEnabled="true" Name="MaxScoreIns-0" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" EditEnabled="true" InsIndex="3" Name="MaxScoreIns-0" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
 <dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
 <dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
 <dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
 </jmslscoreinstrument>
-<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" InsIndex="4" EditEnabled="true" Name="MaxScoreIns-0" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
+<jmslscoreinstrument CLASSNAME="com.algomusic.max.MaxScoreInstrument" EditEnabled="true" InsIndex="4" Name="MaxScoreIns-0" MixerClassName="com.softsynth.jmsl.NullMixer" Transposition="0.0" >
 <dim index="4" defaultvalue="0.0" lowlimit="0.0" highlimit="3.0" name="EventFlag" />
 <dim index="5" defaultvalue="-1.0" lowlimit="-1.0" highlimit="127.0" name="originalPitch" />
 <dim index="6" defaultvalue="-1.0" lowlimit="-1.0" highlimit="10000.0" name="index" />
@@ -43,7 +43,7 @@
 <staffspacing INDEX="2" ABOVE="72.0" BELOW="24.0" />
 <staffspacing INDEX="3" ABOVE="72.0" BELOW="24.0" />
 <staffspacing INDEX="4" ABOVE="72.0" BELOW="72.0" />
-<scoresection NAME="A" START="0" END="0" />
+<scoresection NAME="A" START="1" END="15" />
 <scoresection NAME="B" START="0" END="0" />
 <scoresection NAME="C" START="0" END="0" />
 <scoresection NAME="D" START="0" END="0" />
@@ -171,11 +171,19 @@
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="0.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[6] 185.3ocUO0sBBCEBtGEo6CZ8Gztqmjgs4ZGXdLbVqH5cOmEEwG3wueT4bNUOXjtf5IlxFTBO.itYUKi1ZgYL2LDjIoIuZoWTmMgBGkPq3idPSXOTrAV4JrbkpLIxr14iZxHXNluO1QJAoLXcDvo7EW2RL0pHSygmtUqD2SzzIOWYrDzeKhtrD28XXT7SnK0PgloXdnUTthkORMJNVg2ng+C7cmuqOALW2I5uu69cvVXCb2Gbx1wrW.teYsI" Xoffset="740.0" Yoffset="22.0" >
+</userBean>
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[6] 185.3ocUO0sBBCEBtGEo6CZ8Gztqmjgs4ZGXdLbVqH5cOmEEwG3wueT4bNUOXjtf5IlxFTBO.itYUKi1ZgYL2LDjIoIuZoWTmMgBGkPq3idPSXOTrAV4JrbkpLIxr14iZxHXNluO1QJAoLXcDvo7EW2RL0pHSygmtUqD2SzzIOWYrDzeKhtrD28XXT7SnK0PgloXdnUTthkORMJNVg2ng+C7cmuqOALW2I5uu69cvVXCb2Gbx1wrW.teYsI" Xoffset="740.0" Yoffset="22.0" >
+</userBean>
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[6] 185.3ocUO0sBBCEBtGEo6CZ8Gztqmjgs4ZGXdLbVqH5cOmEEwG3wueT4bNUOXjtf5IlxFTBO.itYUKi1ZgYL2LDjIoIuZoWTmMgBGkPq3idPSXOTrAV4JrbkpLIxr14iZxHXNluO1QJAoLXcDvo7EW2RL0pHSygmtUqD2SzzIOWYrDzeKhtrD28XXT7SnK0PgloXdnUTthkORMJNVg2ng+C7cmuqOALW2I5uu69cvVXCb2Gbx1wrW.teYsI" Xoffset="534.0" Yoffset="28.0" >
+</userBean>
 </note>
 <note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="2.0571428571428574" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" NOTEHEADSCALE="1.0" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="0.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
+<userBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_note-sel" Message="rendered Picster-Element[6] 203.3ocUOEsaBCCCbeJV8clH.aRzOh8.h2qBstqQBGibLzhP7uiq2DHzIkXe24yImRsEEkE3QjvrB0vMPwIsYoW1xDEycEuYlZVqkOxh0MifgZnmsQq1mHr.+fivN1lpBBeCqLUhufMJ69Wa8iRRQnJluNNfBBoLnCHPo7YiWsT5kHgUvcSpm8cyR5WyWsGRztCdUl82vAWH7hXH0gNmJwbomEpg3+o5j3XSbBKua3Yl+cdGh41AVd80Ca194WPX6RXCb0ld1igOdvzYdgE" Xoffset="0.0" Yoffset="0.0" >
+</userBean>
 </note>
 <note NOTEDUR="3" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="0.5" PITCH="71.0" VELOCITY="0.5" HOLD="0.45" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="1" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="0" NOTEHEADSCALE="1.0" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="2" TEXT="" >
 <dim index="4" value="0.0" name="EventFlag" />
@@ -198,6 +206,8 @@
 </track>
 <track INDEX="3" >
 </track>
+<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-0-4" Message="rendered Picster-Element[6] 201.3ocUOEjiBCCCbeJV8NnMzxk9H1Cn8dUn0kFIbLxw6VPH963ZPfPiTh8LiGmbJ0WTTVgGQByJzBWAEOqce6k8LQw7PwaVnVz54irXcKHXnEFYazpeSDVfevYXGaSUAgFXioR7+Xmxt+ZqeVRJBUw7k4ITPHkAcBAJk+y3UKkQIRXEbyjFYe2rjNX9Z8Ph1cvqxr+F16Bg2DSoAz4TIlKirPcD+jZPhycwyX4SCux7w4MHl6mX48WuI.00q2BMvEa1EGF95Nvi6zU5" Xoffset="498.0" Yoffset="36.0" >
+</staffUserBean>
 </staff>
 </measure>
 <measure WIDTH="1330" WIDTHSETBYHAND="true" TIMESIG="54 4" TIMESIGSETBYHAND="true" TEMPO="54.0" TEMPOSETBYHAND="false" REPEATSTART="false" REPEATEND="false" NUMREPEATS="1" BARLINE="SINGLE" MEASURETEXT="" MEASURETEXTX="48" MEASURETEXTY="48" MEASURELEFTMARGIN="50.0" >
@@ -443,21 +453,6 @@
 <dim index="6" value="-1.0" name="index" />
 </interval>
 </note>
-<note NOTEDUR="3" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="0.5" PITCH="67.0" VELOCITY="0.5" HOLD="0.45" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="0" NOTEHEADSCALE="1.0" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="1" TEXT="" >
-<dim index="4" value="0.0" name="EventFlag" />
-<dim index="5" value="67.0" name="originalPitch" />
-<dim index="6" value="-1.0" name="index" />
-<interval NOTEDUR="3" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="0.5" PITCH="74.0" VELOCITY="0.5" HOLD="0.45" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="0" NOTEHEADSCALE="1.0" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="1" TEXT="" >
-<dim index="4" value="0.0" name="EventFlag" />
-<dim index="5" value="74.0" name="originalPitch" />
-<dim index="6" value="-1.0" name="index" />
-</interval>
-<interval NOTEDUR="3" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="0.5" PITCH="79.0" VELOCITY="0.5" HOLD="0.45" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="0" NOTEHEADSCALE="1.0" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="1" TEXT="" >
-<dim index="4" value="0.0" name="EventFlag" />
-<dim index="5" value="79.0" name="originalPitch" />
-<dim index="6" value="-1.0" name="index" />
-</interval>
-</note>
 <note NOTEDUR="3" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="0.5" PITCH="67.0" VELOCITY="0.5" HOLD="0.45" BEAMEDOUT="true" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="0" NOTEHEADSCALE="1.0" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="1" TEXT="" >
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="67.0" name="originalPitch" />
@@ -483,6 +478,21 @@
 <dim index="6" value="-1.0" name="index" />
 </interval>
 <interval NOTEDUR="3" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="0.5" PITCH="79.0" VELOCITY="0.5" HOLD="0.45" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="0" NOTEHEADSCALE="1.0" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="1" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="79.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</interval>
+</note>
+<note NOTEDUR="3" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="0.5" PITCH="67.0" VELOCITY="0.5" HOLD="0.45" BEAMEDOUT="true" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="0" NOTEHEADSCALE="1.0" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="1" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="67.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+<interval NOTEDUR="3" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="0.5" PITCH="74.0" VELOCITY="0.5" HOLD="0.45" BEAMEDOUT="true" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="0" NOTEHEADSCALE="1.0" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="1" TEXT="" >
+<dim index="4" value="0.0" name="EventFlag" />
+<dim index="5" value="74.0" name="originalPitch" />
+<dim index="6" value="-1.0" name="index" />
+</interval>
+<interval NOTEDUR="3" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="0.5" PITCH="79.0" VELOCITY="0.5" HOLD="0.45" BEAMEDOUT="true" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="0" NOTEHEADSCALE="1.0" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="1" TEXT="" >
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="79.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
@@ -789,7 +799,7 @@
 </staff>
 <staff INDEX="4" CLEF="4" CLEFSETBYHAND="false" INSTRUMENTINDEX="4" INSINDEXSETBYHAND="false" KEYSIGTYPE="0" KEYSIGNUMACC="0" KEYSIGSETBYHAND="false" EXTENDEDLINESABOVE="0" EXTENDEDLINESBELOW="0" >
 <track INDEX="0" >
-<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="2.0571428571428574" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" NOTEHEADSCALE="1.0" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
+<note NOTEDUR="0" TUPLET="0" DOTS="0" ACCINFO="0" DURATION="4.0" PITCH="0.0" VELOCITY="0.0" HOLD="2.0571428571428574" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="0" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="1" NOTEHEADSCALE="1.0" VISIBLE="false" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="0" TEXT="" >
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="0.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
@@ -828,8 +838,6 @@
 </track>
 <track INDEX="3" >
 </track>
-<staffUserBean CLASSNAME="com.softsynth.jmsl.score.util.RenderedMessageBean" Name="RenderedMessageBean_staff-1-4" Message="rendered Picster-Element[2] 185.3ocUO0sBBCEBtGEo6CZ8Gztqmjgs4ZGXdLbVqH5cOmEEwG3wueT4bNUOXjtf5IlxFTBO.itYUKi1ZgYL2LDjIoIuZoWTmMgBGkPq3idPSXOTrAV4JrbkpLIxr14iZxHXNluO1QJAoLXcDvo7EW2RL0pHSygmtUqD2SzzIOWYrDzeKhtrD28XXT7SnK0PgloXdnUTthkORMJNVg2ng+C7cmuqOALW2I5uu69cvVXCb2Gbx1wrW.teYsI" Xoffset="740.0" Yoffset="22.0" >
-</staffUserBean>
 </staff>
 </measure>
 <measure WIDTH="1330" WIDTHSETBYHAND="true" TIMESIG="54 4" TIMESIGSETBYHAND="true" TEMPO="54.0" TEMPOSETBYHAND="false" REPEATSTART="false" REPEATEND="false" NUMREPEATS="1" BARLINE="SINGLE" MEASURETEXT="" MEASURETEXTX="48" MEASURETEXTY="48" MEASURELEFTMARGIN="50.0" >
@@ -10151,11 +10159,11 @@
 <dim index="5" value="72.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
 </note>
-<note NOTEDUR="2" TUPLET="0" DOTS="0" ACCINFO="2" DURATION="1.0" PITCH="58.0" VELOCITY="0.5" HOLD="0.8999999761581421" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="1" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="0" NOTEHEADSCALE="1.0" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="1" TEXT="" >
+<note NOTEDUR="2" TUPLET="0" DOTS="0" ACCINFO="2" DURATION="1.0" PITCH="58.0" VELOCITY="0.5" HOLD="0.8999999761581421" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="1" ACCVISPOLICY="2" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="0" NOTEHEADSCALE="1.0" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="1" TEXT="" >
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="58.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
-<interval NOTEDUR="2" TUPLET="0" DOTS="0" ACCINFO="2" DURATION="1.0" PITCH="68.0" VELOCITY="0.5" HOLD="0.8999999761581421" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="1" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="0" NOTEHEADSCALE="1.0" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="1" TEXT="" >
+<interval NOTEDUR="2" TUPLET="0" DOTS="0" ACCINFO="2" DURATION="1.0" PITCH="68.0" VELOCITY="0.5" HOLD="0.8999999761581421" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="1" ACCVISPOLICY="2" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="0" NOTEHEADSCALE="1.0" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="1" TEXT="" >
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="68.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
@@ -10176,11 +10184,11 @@
 <dim index="5" value="72.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
 </note>
-<note NOTEDUR="2" TUPLET="0" DOTS="0" ACCINFO="2" DURATION="1.0" PITCH="58.0" VELOCITY="0.5" HOLD="0.8999999761581421" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="true" ACCPREF="1" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="0" NOTEHEADSCALE="1.0" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="1" TEXT="" >
+<note NOTEDUR="2" TUPLET="0" DOTS="0" ACCINFO="2" DURATION="1.0" PITCH="58.0" VELOCITY="0.5" HOLD="0.8999999761581421" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="true" ACCPREF="1" ACCVISPOLICY="2" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="0" NOTEHEADSCALE="1.0" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="1" TEXT="" >
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="58.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
-<interval NOTEDUR="2" TUPLET="0" DOTS="0" ACCINFO="2" DURATION="1.0" PITCH="68.0" VELOCITY="0.5" HOLD="0.8999999761581421" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="true" ACCPREF="1" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="0" NOTEHEADSCALE="1.0" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="1" TEXT="" >
+<interval NOTEDUR="2" TUPLET="0" DOTS="0" ACCINFO="2" DURATION="1.0" PITCH="68.0" VELOCITY="0.5" HOLD="0.8999999761581421" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="true" ACCPREF="1" ACCVISPOLICY="2" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="0" NOTEHEADSCALE="1.0" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="1" TEXT="" >
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="68.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
@@ -12159,7 +12167,7 @@
 <dim index="5" value="69.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
 </interval>
-<interval NOTEDUR="2" TUPLET="0" DOTS="0" ACCINFO="2" DURATION="1.0" PITCH="75.0" VELOCITY="0.5" HOLD="0.8999999761581421" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="1" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="0" NOTEHEADSCALE="1.0" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="1" TEXT="" >
+<interval NOTEDUR="2" TUPLET="0" DOTS="0" ACCINFO="2" DURATION="1.0" PITCH="75.0" VELOCITY="0.5" HOLD="0.8999999761581421" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="false" ACCPREF="1" ACCVISPOLICY="2" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="0" NOTEHEADSCALE="1.0" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="1" TEXT="" >
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="75.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
@@ -12189,7 +12197,7 @@
 <dim index="5" value="69.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
 </interval>
-<interval NOTEDUR="2" TUPLET="0" DOTS="0" ACCINFO="2" DURATION="1.0" PITCH="75.0" VELOCITY="0.5" HOLD="0.8999999761581421" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="true" ACCPREF="1" ACCVISPOLICY="0" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="0" NOTEHEADSCALE="1.0" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="1" TEXT="" >
+<interval NOTEDUR="2" TUPLET="0" DOTS="0" ACCINFO="2" DURATION="1.0" PITCH="75.0" VELOCITY="0.5" HOLD="0.8999999761581421" BEAMEDOUT="false" GLISSOUT="false" TIEDOUT="true" ACCPREF="1" ACCVISPOLICY="2" ALTENHARMONIC="false" DYN="0" SLUROUT="false" ISGRACENOTE="false" GRACENOTESEPARATIONSCALER="2.0" LEDGERLINESVISIBLE="true" WEDGE="none" OTTAVA="none" MARK="0" TEXTOFFSETX="0" TEXTOFFSETY="0" NOTEHEAD="0" NOTEHEADSCALE="1.0" VISIBLE="true" NOTEHEADVISIBLE="true" STEMVISIBLE="true" OVERRIDELEVEL="-1" ISOVERRIDELEVEL="false" STEMINFOOVERRIDE="false" STEMINFO="1" TEXT="" >
 <dim index="4" value="0.0" name="EventFlag" />
 <dim index="5" value="75.0" name="originalPitch" />
 <dim index="6" value="-1.0" name="index" />
